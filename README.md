@@ -1,6 +1,11 @@
-# CRUDJT
+<p align="center">
+  <img src="logos/crud_jt_logo_black.png#gh-light-mode-only" alt="Logo Light" />
+  <img src="logos/crud_jt_logo.png#gh-dark-mode-only" alt="Logo Dark" />
+</p>
 
-**Fast, file-backed, scalable JSON token engine**  
+<p align="center">
+  <b>Fast, file-backed, scalable JSON token engine</b>
+</p>
 
 CRUDJT is a high-performance persistent token store for stateful user sessions  
 It maintains authentication and authorization across multiple processes with predictable disk usage and low latency  
