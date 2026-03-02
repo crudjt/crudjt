@@ -45,4 +45,4 @@ macOS (darwin23), APFS
 
 # Scale
 CRUDJT includes an embedded gRPC layer for multi-process communication  
-Designed for vertical scaling with predictable file-based storage  
+Designed for vertical scaling with predictable file-backed storage  
