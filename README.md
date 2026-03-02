@@ -35,7 +35,7 @@ Benchmarks across supported languages:
 
 # Disk footprint  
 **40k** tokens  
-**256 bytes**  
+**256 bytes** each token  
 Median over 10 runs  
 macOS (darwin23), APFS    
 
