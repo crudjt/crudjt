@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="logos/crud_jt_logo_black.png#gh-light-mode-only" alt="Logo Light" />
-  <img src="logos/crud_jt_logo.png#gh-dark-mode-only" alt="Logo Dark" />
-</p>
-
-<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logos/crudjt_logo_white_on_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="logos/crudjt_logo_dark_on_white.svg">
+    <img alt="Shows a dark logo" src="logos/crudjt_logo_dark.png">
+  </picture>
   <b>Fast, file-backed, scalable JSON token engine</b>
 </p>
 
@@ -13,35 +13,14 @@ No external database required
 
 # Getting Started
 Choose your language:  
-* [Ruby](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-ruby): `gem install crudjt`
-* [Python](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-python): `pip install crudjt`
-* [Java](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-java): Use JARs from Maven Central Repository
-* [JavaScript](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-javascript): `npm install crudjt`
-* [Elixir](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-elixir): `{:crudjt, "~> x.x"}`
-* [Erlang](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt_erlang): `deps get crudjt`
-* [Go](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-go): `go get crudjt`
-* [PHP](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-php): `composer require crudjt`
-
-# Performance
-Benchmarks across supported languages:  
-* [Ruby](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-ruby?tab=readme-ov-file#performance)
-* [Python](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-python?tab=readme-ov-file#performance)
-* [Java](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-java?tab=readme-ov-file#performance)
-* [Javascript](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-javascript?tab=readme-ov-file#performance)
-* [Elixir](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-elixir?tab=readme-ov-file#performance)
-* [Erlang](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-erlang?tab=readme-ov-file#performance)
-* [Go](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-go?tab=readme-ov-file#performance)
-* [PHP](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/crudjt-php?tab=readme-ov-file#performance)
-
-# Disk footprint  
-**40k** tokens  
-**256 bytes** each token  
-Median over 10 runs  
-macOS (darwin23), APFS    
-
-`48 MB`  
-
-[Full disk footprint results](https://github.com/Cm7B68NWsMNNYjzMDREacmpe5sI1o0g40ZC9w1y/disk_footprint)
+* [Ruby](https://github.com/crudjt/crudjt-ruby): `gem install crudjt --pre`
+* [Python](https://github.com/crudjt/crudjt-python): `pip install crudjt`
+* [Java](https://github.com/crudjt/crudjt-java): Use JARs from Maven Central Repository
+* [JavaScript](https://github.com/crudjt/crudjt-javascript): `npm install crudjt`
+* [Elixir](https://github.com/crudjt/crudjt-elixir): `{:crudjt, "~> 1.0.0-beta.0"}`
+* [Erlang](https://github.com/crudjt/crudjt_erlang): Use crudjt_erlang repo from that repo
+* [Go](https://github.com/crudjt/crudjt-go): `go get github.com/crudjt/crudjt-go@latest`
+* [PHP](https://github.com/crudjt/crudjt-php): `composer require crudjt/crudjt-php:^1.0@beta`
 
 # Scale
 CRUDJT includes an embedded gRPC layer for multi-process communication  
