@@ -25,7 +25,21 @@ Install CRUDJT in your language of choice:
 * [Go](https://github.com/crudjt/crudjt-go): `go get github.com/crudjt/crudjt-go@latest`
 * [PHP](https://github.com/crudjt/crudjt-php): `composer require crudjt/crudjt-php:^1.0@beta`
 
-## 🚀 Scaling & Deployment
+
+# Performance one of SDK
+![performance_one_of_sdk_dark](logos/performance_one_of_sdk_dark.png)
+
+[Full benchmark results](https://github.com/crudjt/benchmarks)
+
+## Disk footprint  
+**40 000** tokens of **256 bytes** each — median over 10 creates  
+darwin23, APFS  
+
+`48 MB`  
+
+[Full disk footprint results](https://github.com/crudjt/disk_footprint)
+
+## Scaling & Deployment
 
 CRUDJT ships with an embedded **gRPC transport layer**, enabling
 fast inter-process communication without external brokers
