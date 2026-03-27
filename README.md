@@ -58,4 +58,4 @@ The server is designed for **vertical scaling** with predictable,
 file-backed storage and stable latency under load
 
 ➡️ Run a production-ready server in seconds using Docker:  
-[Docker Server](https://hub.docker.com/r/coffeemainer/crudjt-server)
+[Docker Server](https://hub.docker.com/r/crudjt/crudjt-server)
