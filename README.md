@@ -9,10 +9,13 @@
 
 CRUDJT is a B-tree–backed persistent token engine for stateful user sessions
 
+
+<img alt="Schema" src="logos/crudjt_server_schema.svg">
+
 It provides:
 - predictable disk usage
 - low latency across multiple processes
-- no external database requirement       
+- no external database requirement
 
 # Getting Started
 Install CRUDJT in your language of choice:  
