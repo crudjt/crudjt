@@ -10,9 +10,9 @@
 CRUDJT is a B-tree–backed persistent token engine for stateful user sessions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="logos/crudjt_server_schema_white_on_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="logos/crudjt_server_schema_dark_on_white.svg">
-  <img alt="Shows a dark logo" src="logos/crudjt_server_schema_white_on_dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="schemas/crudjt_server_schema_white_on_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="schemas/crudjt_server_schema_dark_on_white.svg">
+  <img alt="Shows a dark schema" src="schemas/crudjt_server_schema_white_on_dark.svg">
 </picture>
 
 It provides:
